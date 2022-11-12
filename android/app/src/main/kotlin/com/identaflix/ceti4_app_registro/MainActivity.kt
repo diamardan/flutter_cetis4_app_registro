@@ -1,4 +1,4 @@
-package com.identaflix.cetis2_app_registro
+package com.identaflix.cetis4_app_registro
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.android.SplashScreen
 import android.content.BroadcastReceiver
@@ -14,13 +14,13 @@ import io.flutter.plugins.GeneratedPluginRegistrant
 
 
 class MainActivity: FlutterActivity() {
+    override fun provideSplashScreen(): SplashScreen? = SplashView()
   /*  
     private val CHANNEL = "poc.deeplink.flutter.dev/channel"
     private val EVENTS = "poc.deeplink.flutter.dev/events"
     private var startString: String? = null
     private var linksReceiver: BroadcastReceiver? = null
 
-    override fun provideSplashScreen(): SplashScreen? = SplashView()
     
     override fun configureFlutterEngine(@NonNull flutterEngine: FlutterEngine) {
         GeneratedPluginRegistrant.registerWith(flutterEngine)

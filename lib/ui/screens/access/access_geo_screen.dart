@@ -1,4 +1,4 @@
-import 'package:cetis2_app_registro/ui/screens/access/calendar.dart';
+import 'package:cetis4_app_registro/ui/screens/access/calendar.dart';
 import 'package:flutter/material.dart';
 
 class AccessesGeoScreen extends StatefulWidget {
